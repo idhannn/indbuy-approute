@@ -7,7 +7,6 @@ import { useLoader } from "@/components/Loader";
 import { useAllCategories } from "@/components/service";
 
 export default function AllProducts() {
-
     const {data: categories} = useAllCategories();
     const loading = useLoader(2000);
 
